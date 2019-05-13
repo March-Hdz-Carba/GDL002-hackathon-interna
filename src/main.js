@@ -1,104 +1,24 @@
 
-// var listMovies = [];
-let element = document.getElementById('element');
-let list = '';
-let i = [];
 
 
 
-const listMovies = fromSpace.forEach(function(name){
-  api(name).then((response) => console.log(response));
-  // API(name).then(element.innerHTML = `<span>${}</span>`);
-})
 
+  /*
+for (let i = 0; i < femScifi.length; i++){
 
-// function mostrar(a) {
-//   element.innerHTML = `<span>${a}</span>`
-// }
-//
-// mostrar("pruebas")
-
-  async function api(urlforanea){
-  const url = 'http://www.omdbapi.com/?apikey=7250cff9&t=$';
-  const response = await fetch(url + urlforanea);
-  const data = await response.json()
-  return data.Poster
+  window.data.searchMovie(femScifi[i])
+  // esperamos los datos de la pelicula
+  .then((movie)=>{
+     // recibimos los datos de la pelicula que la promesa nos envio con resolve
+     alert(movie);
+     console.log(movie);
+     let pMovieJs = document.getElementById("pMovie");
+  
+     pMovieJs.innerHTML +=`<div class='movieItem'><strong>Título:  </strong><span>${movie.Title}</strong><br/></span>
+                        <strong> Actores y Actrices:  </strong><span>${movie.Actors}</strong><br/></span>
+                        <strong> Género:  </strong><span>${movie.Genre}</strong><br/></span>
+                        <strong> Poster  </strong><span><img src="${movie.Poster}"/></strong><br/></span></div>`;
+  
+  });
 }
-
-// API(fromSpace).then(console.log);
-
-// const filterCategory = fromSpace.forEach(function(name) {
-//   const url = `http://www.omdbapi.com/?apikey=7250cff9&t=${name}`;
-//   fetch(url)
-//   .then(response => response.json() )
-//   .then(data => {
-//     // list += `<br><span>${data.Title}</span><br>`;
-//     listMovies.push(data.Poster)
-//     listMovies.forEach(function(i) {
-//       array = i;
-//     })
-//     // console.log(listMovies[0]);
-//   })
-//   .catch(err => console.log(err))
-// });
-
-
-
-
-
-
-
-// var sum = '';
-//
-//
-// for (var item in listMovies) {
-//   sum += item;
-// }
-//
-// console.log(sum);
-
-// for (var i = 0; i < listMovies.length; i++) {
-//   console.log(listMovies[i]);
-//   list += `<br><span>${listMovies[i]}</span><br>`;
-// }
-// element.innerHTML = list;
-
-
-
-// console.log(listMovies);
-
-// let element = document.getElementById('element');
-// element.innerHTML = `<p>${listMovies}<p>`;
-
-
-// listMovies = listMovies
-// let list = "";
-// let element = document.getElementById('element');
-// for (var i = 0; i < listMovies.length; i++) {
-//   list += `<span>${listMovies[i]}</span>`;
-//
-// }
-// element.innerHTML = list;
-
-
-
-
-
-// function showCategory(listMovies) {
-//   for (var i = 0; i < listMovies.length; i++) {
-//     console.log(listMovies[i])
-//
-//   }
-//
-//   // listMovies.forEach(function(i) {
-//   //   console.log(i.prueba);
-//   // //   let element = document.getElementById('element');
-//   // //   console.log(i.Poster);
-//   // //   element.innerHTML = `<p>${i.Poster}<p>`;
-//   //
-//   //
-//   // })
-// }
-
-
-// console.log(showCategory(listMovies))
+*/

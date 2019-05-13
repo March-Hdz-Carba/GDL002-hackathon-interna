@@ -1,4 +1,5 @@
-const timeTravel = [
+window.list = {
+    timeTravel : [
 '12 Monkeys',
 'Back to the Future',
 'Groundhog Day',
@@ -9,11 +10,9 @@ const timeTravel = [
 'Déjà vu',
 'Predestination',
 'Edge of Tomorrow'
-];
+],
 
-// console.log(timeTravel);
-
-const fromSpace = [
+    fromSpace : [
 'Interstellar',
 'Gravity',
 'The Martian',
@@ -24,9 +23,9 @@ const fromSpace = [
 'Gattaca',
 'Predator',
 'Guardians of the Galaxy'
-];
+],
 
-const apocalypse = [
+    apocalypse : [
 '28 Days Later',
 'Independence Day',
 'The Day After Tomorrow',
@@ -37,9 +36,9 @@ const apocalypse = [
 'REC',
 'Dawn of the Planet of the Apes',
 'The Road'
-];
+],
 
-const cultMovies = [
+    cultMovies : [
 'Donnie Darko',
 'Edward Scissorhands',
 'Barbarella',
@@ -50,9 +49,9 @@ const cultMovies = [
 'Repo Man',
 'Labyrinth',
 'Eraserhead'
-];
+],
 
-const cyberPunk = [
+    cyberPunk : [
 'Matrix',
 'Blade Runner',
 'Tron: Legacy',
@@ -63,9 +62,9 @@ const cyberPunk = [
 'Total Recall',
 'Judge Dredd',
 'ABE'
-];
+],
 
-const fantasy = [
+    fantasy : [
 'Harry Potter',
 'Willy Wonka & the Chocolate Factory',
 'E.T. the Extra-Terrestrial',
@@ -76,10 +75,9 @@ const fantasy = [
 'The Neverending Story',
 'WALL-E',
 'Fantastic Beasts: The Crimes of Grindelwald'
-];
+],
 
-
-const ghosts = [
+    ghosts : [
 'The Sixth Sense',
 'The Others',
 'Beetlejuice',
@@ -90,9 +88,9 @@ const ghosts = [
 'The Exorcist',
 'A Nightmare on Elm Street',
 'Casper'
-];
+],
 
-const robots = [
+    robots : [
 'Terminator',
 'RoboCop',
 'I, Robot',
@@ -103,9 +101,9 @@ const robots = [
 'Westworld',
 'Android',
 'Transformers: Revenge of the Fallen'
-];
+],
 
-const dramaAndAction = [
+    dramaAndAction : [
 'Inception',
 'X-men',
 'Cloud Atlas',
@@ -116,9 +114,9 @@ const dramaAndAction = [
 'Deadpool',
 'Annihilation',
 'Soylent Green'
-];
+],
 
-const feminists = [
+    femScifi : [
 'Mad Max',
 'Gravity',
 'Contact',
@@ -129,9 +127,9 @@ const feminists = [
 'Wonder Woman',
 'Captain Marvel',
 'Ghost in the shell'
-];
+],
 
-const latestReleases = [
+    latestReleases : [
 'Captive State',
 'Captain Marvel',
 'Alita: Battle Angel',
@@ -142,9 +140,9 @@ const latestReleases = [
 'Ready Player One',
 'Rampage',
 'Avengers: Infinity War'
-];
+],
 
-const suggestions = [
+    suggestions : [
 'Solaris',
 'Her',
 'Close Encounters of the Third Kind',
@@ -155,10 +153,10 @@ const suggestions = [
 'Interstellar',
 'Jurassic Park',
 'Metropolis'
-];
+],
 
 
-const winners = [
+    winners : [
 'Sector 9',
 'Avatar',
 'Matrix',
@@ -169,4 +167,6 @@ const winners = [
 'Star Wars',
 'Mary Poppins',
 'The Wizard of Oz'
-];
+],
+
+};
